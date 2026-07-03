@@ -11,3 +11,6 @@
 5) make smoke                         # 2 часа модельного времени — первый запуск
 
 
+6) make run
+
+7) make dashboard
