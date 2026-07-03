@@ -19,7 +19,6 @@
 8) как мёрджить свою ветку в мастер ?
 
 git checkout master && \
-git pull origin master && \
 git merge feature_spectrew && \
 git push origin master
 
