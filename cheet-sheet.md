@@ -8,5 +8,4 @@
 
 4) pip install -r requirements.txt    # simpy, numpy, pyyaml, streamlit, plotly, pandas
 
-
 5) make smoke                         # 2 часа модельного времени — первый запуск
