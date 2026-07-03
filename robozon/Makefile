@@ -27,3 +27,10 @@ test:
 
 docker:
 	docker build -t robozon-sc . && docker run --rm -v $(PWD)/data/out:/app/data/out robozon-sc
+
+# Сборка PDF-отчёта из docs/report.md (нужен pandoc + xelatex:
+#   sudo dnf install pandoc texlive-xetex texlive-collection-langcyrillic)
+report:
+	pandoc docs/report.md -o docs/report.pdf --pdf-engine=xelatex \
+	  -V mainfont="DejaVu Serif" -V geometry:margin=2cm -V lang=ru \
+	  --toc --toc-depth=2
