@@ -1,0 +1,9 @@
+resource,capacity,busy_resource_sec,utilization
+box_opening,16,1328280.0,0.9609
+depalletizing,7,531960.0,0.8796
+gates,24,1634400.0,0.7882
+infeed,14,1075761.0,0.8894
+manual_sort,22,1894593.6,0.9967
+palletizing,9,638080.0,0.8206
+sealing,12,799930.0,0.7715
+sorters,11,774513.0,0.8149
