@@ -1,0 +1,8 @@
+# Ядро модели (обязательно)
+simpy>=4.0
+numpy>=1.24
+PyYAML>=6.0
+# Дашборд и аналитика (для dashboard/ и notebooks/)
+streamlit>=1.30
+plotly>=5.18
+pandas>=2.0

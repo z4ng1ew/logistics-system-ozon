@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+data/out/*
+!data/out/.gitkeep
+.ipynb_checkpoints/
+node_modules/
+*.mp4
+.DS_Store
