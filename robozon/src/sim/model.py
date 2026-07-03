@@ -304,7 +304,7 @@ class SortingCenterModel:
 
     def palletizer_robot(self):
         cfg = self.cfg
-        per_pallet = cfg["palletizing"]["boxes_per_pallet"]
+        per_pallet = cfg["flow"]["boxes_per_pallet"]
         t_box = cfg["palletizing"]["sec_per_box"]
         while True:
             boxes = []
