@@ -24,3 +24,6 @@ git push origin master
 
 
 - одной командой
+
+
+9) make report  # docs/report.md → docs/report.pdf с оглавлением
